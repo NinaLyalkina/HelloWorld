@@ -20,8 +20,8 @@ public class Writer {
 
                 if (s.compareTo("stop") == 0) break;
                 fw.write(s);
-                fw.close();
             } while (s.compareTo("stop") != 0);
+            fw.close();
         } catch (IOException exc) {
             System.out.println(exc);
         }
