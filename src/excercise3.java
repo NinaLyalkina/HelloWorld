@@ -8,7 +8,7 @@ public class excercise3 {
         System.out.println("введите количество рублей>>>");
         double r = in.nextDouble();
         double b = r / s;
-        double mul = Math.pow(10, 2);
-        System.out.println(((long)(b*mul))/mul);
+        double round = Math.pow(10, 2);
+        System.out.println(((long)(b*round))/round);
     }
 }
